@@ -1,0 +1,146 @@
+@font-face {
+    font-family: FjordOne;
+    src: url(Fjord_One/FjordOne-Regular.ttf);
+    font-weight:400;
+}
+
+body {
+	background: #74AFAD;
+	color: #ECECEA;
+	font-family: 'FjordOne', serif;
+	font-size: 12px;
+	
+	/*
+	nice color palette
+	#558C89 - dark-grey-blue
+	#74AFAD - light blue
+	#D9853B - orange
+	#ECECEA - light grey
+	*/
+}
+
+/*THE WHOLE SCREEN IS THE MAIN AREA */
+#mainArea{
+	width: 100%;
+	margin: auto;
+}
+
+
+/*THE HEADER CONSISTS OF OUR NAME (whoAmIDiv) AND OTHER, INFO BENEATH IT */
+#whoAmIDiv{
+	font-size: 30px;
+	width: 87%;
+	margin-bottom: 30px;
+	margin: auto;
+	text-align: center;
+	clear: both;
+}
+
+.headerInfo{
+	font-size: 10px;
+}
+/*END HEADER AEA */
+
+
+/*EACH 'BIG BLOCK' (E.G. DESCRIPTION, PERSONAL DETAILS, SUBJCT OF INTEREST) IS A MAIN DIV */
+.mainDiv{
+	border-width: 2px;
+	border-style: solid;
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.mainDivTitle{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+/*END MAIN DIV */
+
+/*EACH 'FACT' BELONGS IN ITS OWN INNER DIV. */
+.innerDiv{
+	border-width: 1px;
+	border-style: dashed;
+	padding: 2px;
+	margin-top: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+.topic{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.dynamicData{
+	color: #8644DF;
+	padding-left: 2px;
+	padding-right: 8px;
+}
+/*END CONTENT OF INNER DIVS */
+
+
+/*THE MAIN DIVS */
+#personalDescription{
+	width: 35%;
+}
+
+#additionalPersonalDetails{
+	width: 31%;
+}
+
+#subjectOfConversation{
+	width: 57%;
+}
+
+#QueryMatches{
+	width: 15%;
+}
+
+/*END MAIN DIVS */
+
+
+/*THE FOOTER CONTAINS ALL OF THE PREVIOUS PEOPLE THAT I'VE BEEN */
+#previousPeopleFooter{
+	clear: both;
+	padding-top: 10px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#previousPeopleTitle{
+	font-size: 20px;
+}
+
+#previousPeopleFooter ul{
+	list-style-type: none;
+}
+
+#previousPeopleFooter li{
+	float: left;
+}
+
+.previousCharacterDescription{
+	display: block;
+	padding-left: 10px;
+	font-size: 12px;
+	font-style: italic;
+	color: #4244DF;
+}
+
+.dynamicList{
+	padding-top: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 30px;
+    width: 90%;
+
+/*END FOOTER */
+
+}
