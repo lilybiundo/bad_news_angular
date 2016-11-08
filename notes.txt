@@ -1,0 +1,2 @@
+in communicator.py:
+self object contains all the requisite data
