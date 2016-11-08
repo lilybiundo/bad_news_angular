@@ -1,2 +1,4 @@
-in communicator.py:
-self object contains all the requisite data
+https://github.com/mdbiundo/bad_news_live
+
+https://github.com/mdbiundo/bad_news_angular
+
